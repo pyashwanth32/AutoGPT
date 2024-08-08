@@ -40,10 +40,9 @@ streamlit run app.py
 ## 4 Technology Stack
 1. Streamlit: A popular Python library for creating interactive web applications. It is used to build the user interface of the application.
 2. LangChain: A framework designed to build applications powered by language models. It facilitates the integration of different models and utilities.
-3. OpenAI: Previously commented out, indicating potential use of OpenAI's models.
-4. Google Generative AI: Utilized via the langchain_google_genai library, specifically the Gemini model, to generate essay content.
-5. Wikipedia: Used to fetch research content related to the topic provided by the user.
-6. ChromaDB and Tiktoken: Installed but not directly used in this script. They might be intended for more advanced data handling or tokenization processes.
+3. Google Generative AI: Utilized via the langchain_google_genai library, specifically the Gemini model, to generate essay content.
+4. Wikipedia: Used to fetch research content related to the topic provided by the user.
+5. ChromaDB and Tiktoken: Installed but not directly used in this script. They might be intended for more advanced data handling or tokenization processes.
 
 ## 5 System Architecture
 ### 5.1 Components
