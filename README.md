@@ -8,6 +8,7 @@ Please Note: Make sure you have added money into your OpenAI Account for API key
 
 Make sure the set the environment variables to:
 set GOOGLE_API_KEY=insert_your_gemini_api_key_here
+![Setting the Environment Variable in your PC](https://github.com/pyashwanth32/AutoGPT/blob/main/Additional_Pictures/Environment_Variable_Setting.png)
 
 Install the following libraries
 1. pip install langchain-google-genai
