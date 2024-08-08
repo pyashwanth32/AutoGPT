@@ -4,7 +4,9 @@
 The AutoGPT Essay Creator is a web-based application designed to automatically generate essays on any given topic. By leveraging advanced language models and external resources like Wikipedia, the application provides users with coherent and informative essays, enhancing both productivity and creativity in writing tasks.
 
 ## 2 Dependencies
-Please Note: Make sure you have added money into your OpenAI Account for API key usage, else the prompts won't work.
+Please Note: 
+1. Make sure you have added money into your Google Gemini Account for API key usage, else the prompts won't work.
+2. Insert your API Key in the apikey.py file to run the application.
 
 Make sure the set the environment variables to:
 set GOOGLE_API_KEY=insert_your_gemini_api_key_here
