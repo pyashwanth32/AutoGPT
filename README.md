@@ -24,7 +24,7 @@ So I used the following website instructions (along with installing MSVC Build T
 https://stackoverflow.com/questions/73969269/error-could-not-build-wheels-for-hnswlib-which-is-required-to-install-pyprojec
 ```
 
-To run the application:
+To run the application, go to the location of the app.py and on the command window, run the following command:
 ```
 streamlit run app.py
 ```
