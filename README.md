@@ -1,4 +1,4 @@
-# AutoGPT - Automatic Essay Writer using Google Gemini API Key
+# AutoGPT - Automatic Essay Generator using Google Gemini API Key
 
 ## 1 Introduction
 The AutoGPT Essay Creator is a web-based application designed to automatically generate essays on any given topic. By leveraging advanced language models and external resources like Wikipedia, the application provides users with coherent and informative essays, enhancing both productivity and creativity in writing tasks. Users can select the writing style (e.g., formal, informal, persuasive) and a citation generator automatically generates citations for the research used in the essays.
