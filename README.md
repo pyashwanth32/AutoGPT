@@ -1,7 +1,7 @@
 # AutoGPT - Automatic Essay Writer using Google Gemini API Key
 
 ## 1 Introduction
-The AutoGPT Essay Creator is a web-based application designed to automatically generate essays on any given topic. By leveraging advanced language models and external resources like Wikipedia, the application provides users with coherent and informative essays, enhancing both productivity and creativity in writing tasks.
+The AutoGPT Essay Creator is a web-based application designed to automatically generate essays on any given topic. By leveraging advanced language models and external resources like Wikipedia, the application provides users with coherent and informative essays, enhancing both productivity and creativity in writing tasks. Users can select the writing style (e.g., formal, informal, persuasive) and a citation generator automatically generates citations for the research used in the essays.
 
 ## 2 Dependencies
 Please Note: 
@@ -67,20 +67,26 @@ streamlit run app.py
 2. Title Generation:
     The title_chain uses the topic to generate a suitable essay title, storing the history in title_memory.
 
-3. Research Integration:
+3. Style of Writing:
+    The type of Essay that has to be generated (formal, informal, or persuasive) can be selected.
+
+4. Research Integration:
     Wikipedia API is queried for information related to the topic to inform the essay.
 
-4. Essay Generation:
+5. Essay Generation:
     The script_chain uses both the generated title and Wikipedia research to produce a comprehensive essay.
 
-5. Output and History:
+6. Output and History:
     The application displays the essay title and content.
     Users can view historical data for titles, scripts, and Wikipedia research using expandable sections.
 
+7. Citations Generator:
+   This feature automatically generates citations for the research used in the essays.
+
 ## Future Enhancements
 1. Expand Model Options: Enable switching between different language models (e.g., OpenAI's GPT models).
-2. Advanced Research: Incorporate more external data sources or databases for richer content generation.
-3. User Customization: Allow users to specify essay length, tone, or specific points to be covered.
+2. Advanced Research: Incorporate more external data sources or databases for richer content generation. This can be done using more APIs other than Wikipedia.
+3. User Customization: Allow users to specify essay length, tone, or specific points to be covered. Can also incorporate different Essay sections (eg. Introduction, Body, Conclusion.)
 
 ## Conclusion
-The AutoGPT Essay Creator represents a significant step towards automating the essay writing process. By integrating cutting-edge AI models with a simple and intuitive interface, it provides a valuable tool for anyone needing quick, coherent, and informative written content.
+The AutoGPT Essay Creator represents a significant step towards automating the essay writing process. By integrating cutting-edge AI models with a simple and intuitive interface, it provides a valuable tool for anyone needing quick, coherent, and informative written content in the style of your choice.
